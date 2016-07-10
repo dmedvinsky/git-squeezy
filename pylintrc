@@ -1,0 +1,5 @@
+[MASTER]
+persistent=no
+
+[MESSAGES CONTROL]
+disable=locally-disabled

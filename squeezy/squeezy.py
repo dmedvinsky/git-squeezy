@@ -5,7 +5,9 @@ from __future__ import print_function, unicode_literals
 import argparse
 import sys
 
-import git
+# Relative import for the case when user didn't use `setup.py install` and just
+# uses this file as an executable script.
+import git  # pylint: disable=relative-import
 
 
 def fatal(error, code=1):
