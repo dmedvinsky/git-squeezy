@@ -61,6 +61,7 @@ def merge(source_branch, dest_branch):
                      'Run `git status` to see the conflicts.\n'
                      'Run `git reset --merge` to abort merge.')
 
+    # FIXME currently assumes that it is run from the repo root.
     git.commit('--file=.git/SQUASH_MSG')
     print('Merged {source} into {dest}.'
           ''.format(source=source_branch, dest=dest_branch))

@@ -15,4 +15,10 @@ If you don't want to install the thing, you can just run
 Usage
 -----
 
+Go to your repository root and run
+
+    git-squeezy branch_to_merge branch_to_merge_info
+
+For interactive help on usage run
+
     git-squeezy --help
