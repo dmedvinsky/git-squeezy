@@ -17,7 +17,7 @@ Usage
 
 Go to your repository root and run
 
-    git-squeezy branch_to_merge branch_to_merge_info
+    git-squeezy branch_to_merge branch_to_merge_into
 
 For interactive help on usage run
 
